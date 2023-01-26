@@ -61,7 +61,8 @@ label input[type="checkbox"] {
   background-image: url(./images/pc_check_off_24.png);
 }
 
-.total .checkbox-img .checked {
+.total .checkbox-img.checked {
+  /* .checkbox-img.checked 사이를 띄우지 말것 */
   width: 24px;
   height: 24px;
   background-image: url(./images/pc_check_on_l_24.png);
@@ -85,7 +86,7 @@ label input[type="checkbox"] {
   background-image: url(./images/pc_chcek_off_s_20.png);
 }
 
-.agree .checkbox-img .checked {
+.agree .checkbox-img.checked {
   width: 20px;
   height: 20px;
   background-image: url(./images/pc_chcek_on_s_20.png);
